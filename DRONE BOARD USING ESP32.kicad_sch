@@ -1,0 +1,2031 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c8876f01-b1b8-4fc6-9cb6-486dfb32cf8a")
+	(paper "A3")
+	(title_block
+		(title "DRONE BOARD USING ESP32")
+		(date "2026-09-12")
+		(rev "1")
+		(company "DIELCHA DIGILAB")
+		(comment 1 "Drone project implemented using ESP32 microcontroller.")
+	)
+	(lib_symbols
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(circle
+		(center 157.48 93.98)
+		(radius 0.0001)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1b138f6b-715f-43aa-aa49-a6155216720b")
+	)
+	(rectangle
+		(start 101.6 16.51)
+		(end 405.13 185.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "29c6e795-bf92-467b-9996-bbe296f868bd")
+	)
+	(text "GPIO Motor 4"
+		(exclude_from_sim no)
+		(at 322.072 167.64 0)
+		(effects
+			(font
+				(size 2.794 2.794)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "03942734-13d5-42b7-8492-65ae3f9b7b50")
+	)
+	(text "GPIO Motor 3"
+		(exclude_from_sim no)
+		(at 321.818 154.94 0)
+		(effects
+			(font
+				(size 2.794 2.794)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "148c644c-6cac-4f5f-82cc-b0cd2301610c")
+	)
+	(text "3V3"
+		(exclude_from_sim no)
+		(at 381 29.464 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "40d8049c-1dd9-407f-8b96-81faef50f20f")
+	)
+	(text "VBAT"
+		(exclude_from_sim no)
+		(at 190.5 106.934 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "4f6e5eb2-6e55-4e2b-84c4-beb2566ec393")
+	)
+	(text "GPIO Motor 2"
+		(exclude_from_sim no)
+		(at 322.072 141.224 0)
+		(effects
+			(font
+				(size 2.794 2.794)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6349bdb3-c768-44f4-8d18-7facf6e93516")
+	)
+	(text "DRONE PCB USING ESP32"
+		(exclude_from_sim no)
+		(at 34.798 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70f626cb-b973-49d6-b2cc-c5c21d799dc9")
+	)
+	(text "GPIO LED 1"
+		(exclude_from_sim no)
+		(at 322.072 80.518 0)
+		(effects
+			(font
+				(size 2.794 2.794)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "824e9a18-4f34-482e-bdb9-7725eb82d0f2")
+	)
+	(text "VBAT"
+		(exclude_from_sim no)
+		(at 395.986 121.666 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "83ad10d3-99bf-4afe-904a-0f16f09cbd02")
+	)
+	(text "V-USB"
+		(exclude_from_sim no)
+		(at 170.942 91.948 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "848d9773-801c-4ea7-b4f6-bfe7decd3560")
+	)
+	(text "GPIO LED 3"
+		(exclude_from_sim no)
+		(at 322.072 109.22 0)
+		(effects
+			(font
+				(size 2.794 2.794)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "8c4d03f3-4aa6-4493-a706-1ce5c7bd44c4")
+	)
+	(text "UART"
+		(exclude_from_sim no)
+		(at 229.362 157.226 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "8c640a11-a43f-4f3a-8f27-a37f5069d2be")
+	)
+	(text "3V3"
+		(exclude_from_sim no)
+		(at 300.99 29.718 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "91b20c0a-43d1-43ff-be00-0841a77e5b9f")
+	)
+	(text "3V3"
+		(exclude_from_sim no)
+		(at 321.818 50.8 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a1c6d1fb-a6dc-4b34-8383-e55dac062208")
+	)
+	(text "GPIO Motor 1"
+		(exclude_from_sim no)
+		(at 321.31 128.778 0)
+		(effects
+			(font
+				(size 2.794 2.794)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "c5149d6f-1d60-4ec9-9094-611322ecef15")
+	)
+	(text "EN"
+		(exclude_from_sim no)
+		(at 160.274 39.878 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d292f885-085a-48ab-a582-6e34e694bc8f")
+	)
+	(text "3V3"
+		(exclude_from_sim no)
+		(at 205.486 26.924 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d96cdcc4-d6b4-41cf-944f-047be02c9be6")
+	)
+	(text "USB DATA"
+		(exclude_from_sim no)
+		(at 150.368 136.906 90)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "dcea9702-39af-4653-b438-c0ec4c4b5af8")
+	)
+	(text "GPIO LED 2"
+		(exclude_from_sim no)
+		(at 321.564 94.996 0)
+		(effects
+			(font
+				(size 2.794 2.794)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "deec8a32-c8a9-4068-b527-4bf1b19e083e")
+	)
+	(text "AN-VBAT/2"
+		(exclude_from_sim no)
+		(at 226.314 130.81 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f21493ae-69fa-4bd0-9425-5aa684297667")
+	)
+	(text "Block Diagram"
+		(exclude_from_sim no)
+		(at 130.556 26.162 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f8438def-9a0d-49fb-85cc-13165b29e98c")
+	)
+	(text_box "ESP32 based quad rotor drone running on 1300mAh LiPo \nBattery with a battery charging circuit.\n"
+		(exclude_from_sim no)
+		(at 22.86 26.67 0)
+		(size 59.69 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "40e75d3e-9f7c-4d85-8260-7fe29fcc1573")
+	)
+	(text_box "LEDs"
+		(exclude_from_sim no)
+		(at 340.36 73.66 0)
+		(size 44.45 44.45)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 14 17 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 99 1)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "58d28e6b-d78a-4f32-8392-38a74ffad1e8")
+	)
+	(text_box "USB to UART Converter\n(CP2102)"
+		(exclude_from_sim no)
+		(at 165.1 144.78 0)
+		(size 36.83 33.02)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 14 17 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 99 1)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "608267a8-2248-4674-877b-a315c1367b3f")
+	)
+	(text_box "Battery Connector"
+		(exclude_from_sim no)
+		(at 165.1 114.3 0)
+		(size 30.48 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 14 17 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 99 1)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "676c3aa1-189f-4564-99af-a3843d4e0afe")
+	)
+	(text_box "Accelerometer\n(MPU6050)"
+		(exclude_from_sim no)
+		(at 340.36 35.56 0)
+		(size 44.45 33.02)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 14 17 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 99 1)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "7bdfe718-1347-4874-897f-ce0c5bf05daf")
+	)
+	(text_box "Battery Charging Circuit\n(TP4056)"
+		(exclude_from_sim no)
+		(at 203.2 86.36 0)
+		(size 35.56 39.37)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 14 17 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 99 1)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "a91ca525-e57d-49be-95f8-7b84f9400a96")
+	)
+	(text_box "Microcontroller\n\nESP32-WROOM Module"
+		(exclude_from_sim no)
+		(at 259.08 35.56 0)
+		(size 45.72 142.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 14 17 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 99 1)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "b2f1ee38-10f0-4c43-9564-1d049a306b6a")
+	)
+	(text_box "Toggle Switch"
+		(exclude_from_sim no)
+		(at 110.49 33.02 0)
+		(size 34.29 33.02)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 14 17 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 99 1)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.4763)
+			)
+		)
+		(uuid "bb23dc6b-3fab-4fe5-9105-94d677b6f322")
+	)
+	(text_box "Non-BOM Items\n"
+		(exclude_from_sim no)
+		(at 21.59 85.09 0)
+		(size 60.96 26.67)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c682dc60-1acb-46dd-ae57-ce41b6613bd9")
+	)
+	(text_box "Additional BOM Items"
+		(exclude_from_sim no)
+		(at 22.86 127 0)
+		(size 59.69 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cb90e7ed-2dae-4b94-9b2e-729fd92acc1a")
+	)
+	(text_box "Motor Driver"
+		(exclude_from_sim no)
+		(at 340.36 123.19 0)
+		(size 44.45 53.34)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 14 17 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 99 1)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "ce467370-eb91-4c8c-abb2-694b5c0cb756")
+	)
+	(text_box "Page 1 - Top Sheet\nPage 2 - Power Management\nPage 3 - ESP32\nPage 5 - Peripherals"
+		(exclude_from_sim no)
+		(at 22.86 60.96 0)
+		(size 59.69 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d9a6c98a-4cf5-4b92-a138-add61fbaf4a1")
+	)
+	(text_box "USB Input"
+		(exclude_from_sim no)
+		(at 110.49 87.63 0)
+		(size 31.75 29.21)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 14 17 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 99 1)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "f899b87d-380b-4d3b-a867-b7d1a2e9cb6e")
+	)
+	(text_box "3V3 Regulator\n(MIC5219)"
+		(exclude_from_sim no)
+		(at 175.26 33.02 0)
+		(size 36.83 33.02)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 14 17 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 99 1)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.4763)
+			)
+		)
+		(uuid "f8d50054-17e6-4d13-938f-ef8e45f3abea")
+	)
+	(text_box "Table of Contents"
+		(exclude_from_sim no)
+		(at 22.86 49.53 0)
+		(size 59.69 3.9483)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fb1c54bd-d62e-4d67-afac-a1adc9b067b1")
+	)
+	(polyline
+		(pts
+			(xy 304.8 143.51) (xy 340.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08cff6d0-2bde-40ee-80aa-e1663b6e585d")
+	)
+	(polyline
+		(pts
+			(xy 300.99 31.75) (xy 300.99 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09839cde-e489-4580-81a4-a9137f2e1263")
+	)
+	(polyline
+		(pts
+			(xy 378.46 31.75) (xy 383.54 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b9a07e9-440b-4259-8f13-2668e0852d2b")
+	)
+	(polyline
+		(pts
+			(xy 304.8 111.76) (xy 340.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cbebb6b-24d1-468a-9933-2d0b2227299b")
+	)
+	(polyline
+		(pts
+			(xy 173.99 53.34) (xy 175.26 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10577dee-398d-445e-a684-be690a99b043")
+	)
+	(polyline
+		(pts
+			(xy 163.83 158.75) (xy 165.1 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1219dd0b-8830-491d-9f76-fcf2a85a67d3")
+	)
+	(polyline
+		(pts
+			(xy 173.99 43.18) (xy 175.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19dc3ede-bafd-4817-97af-3ce09f399f9e")
+	)
+	(polyline
+		(pts
+			(xy 163.83 161.29) (xy 165.1 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fb5b1dd-0779-4af9-85d8-34854d1811c1")
+	)
+	(polyline
+		(pts
+			(xy 339.09 83.82) (xy 340.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245aff68-52ba-4b91-89e2-a09c4d0996c1")
+	)
+	(polyline
+		(pts
+			(xy 339.09 156.21) (xy 340.36 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3538c7c3-907b-444a-9fe8-4bf0f2949fbc")
+	)
+	(polyline
+		(pts
+			(xy 201.93 95.25) (xy 203.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd75fce-114b-461f-9505-11bf72074826")
+	)
+	(polyline
+		(pts
+			(xy 187.96 110.49) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e5927c9-0608-4682-90ca-6a046965ebf1")
+	)
+	(polyline
+		(pts
+			(xy 201.93 160.02) (xy 259.08 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7f2bfd-dd85-42b2-b0da-5c15b635087d")
+	)
+	(polyline
+		(pts
+			(xy 339.09 168.91) (xy 340.36 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f23fb63-2980-41ad-a3d4-7308b84a569d")
+	)
+	(polyline
+		(pts
+			(xy 384.81 128.27) (xy 396.24 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43dc8b7b-2b78-4932-bf93-9c69c3a9b8c4")
+	)
+	(polyline
+		(pts
+			(xy 339.09 144.78) (xy 340.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e06ed4-4f71-4778-a0d1-17b63fb305c6")
+	)
+	(polyline
+		(pts
+			(xy 173.99 55.88) (xy 175.26 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48580217-ec6e-41e5-a8a4-021f3c356055")
+	)
+	(polyline
+		(pts
+			(xy 195.58 133.35) (xy 259.08 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bed0598-10e2-4131-b0aa-dd7edf3d5f0c")
+	)
+	(polyline
+		(pts
+			(xy 142.24 107.95) (xy 153.67 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5308aed0-3f80-45ad-8827-e6e91009dcc3")
+	)
+	(polyline
+		(pts
+			(xy 257.81 134.62) (xy 259.08 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571a8539-6504-4a06-8d50-af15d311aa40")
+	)
+	(polyline
+		(pts
+			(xy 304.8 130.81) (xy 340.36 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c43f51-2aec-4662-838a-169e4dbc8d85")
+	)
+	(polyline
+		(pts
+			(xy 339.09 142.24) (xy 340.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b178424-633f-44c7-a48f-c05d7cb06b2b")
+	)
+	(polyline
+		(pts
+			(xy 153.67 160.02) (xy 165.1 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0190ca-0199-4437-8f4c-96e429544792")
+	)
+	(polyline
+		(pts
+			(xy 339.09 171.45) (xy 340.36 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4ad8d4-c332-48f4-9f24-7d50b02e455b")
+	)
+	(polyline
+		(pts
+			(xy 304.8 97.79) (xy 340.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b13a6c-e4be-461e-a6f0-b6bce997ff0c")
+	)
+	(polyline
+		(pts
+			(xy 144.78 41.91) (xy 175.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e347b0-c421-4076-9d0c-5058f0d91231")
+	)
+	(polyline
+		(pts
+			(xy 339.09 158.75) (xy 340.36 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72afff06-7e36-4454-9c02-168b17a0d94c")
+	)
+	(polyline
+		(pts
+			(xy 190.5 110.49) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745e289a-09fe-4104-a87a-6b8dcc422682")
+	)
+	(polyline
+		(pts
+			(xy 339.09 110.49) (xy 340.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7816fc62-f205-46bd-81d4-be71e6d38c50")
+	)
+	(polyline
+		(pts
+			(xy 298.45 31.75) (xy 303.53 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8d68a7-e7e6-4e84-bdd9-fc1c528b865b")
+	)
+	(polyline
+		(pts
+			(xy 339.09 81.28) (xy 340.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9d1208-5805-4683-92a2-75a872d553d1")
+	)
+	(polyline
+		(pts
+			(xy 339.09 96.52) (xy 340.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "851920a9-b642-45cd-bfad-d6840f62452b")
+	)
+	(polyline
+		(pts
+			(xy 339.09 142.24) (xy 340.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca14e3d-83e3-421a-ba10-e040c4c3b3da")
+	)
+	(polyline
+		(pts
+			(xy 142.24 93.98) (xy 203.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "988a14ee-b826-4050-a6d8-0c0c22847c7a")
+	)
+	(polyline
+		(pts
+			(xy 339.09 81.28) (xy 340.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99434d32-7ba8-44ce-bbbc-2a49fbbe08bc")
+	)
+	(polyline
+		(pts
+			(xy 304.8 53.34) (xy 340.36 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb3c218-b3a5-4006-9875-6878a45d4136")
+	)
+	(polyline
+		(pts
+			(xy 257.81 158.75) (xy 259.08 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d104c1-45e2-42b2-966b-9c5d449afc31")
+	)
+	(polyline
+		(pts
+			(xy 396.24 124.46) (xy 396.24 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60a2a89-d7b1-4de6-bfc7-52c8279991f5")
+	)
+	(polyline
+		(pts
+			(xy 257.81 161.29) (xy 259.08 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8dfe04-9239-4ec6-b265-f698fb93bd10")
+	)
+	(polyline
+		(pts
+			(xy 339.09 132.08) (xy 340.36 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0894ae8-d956-4eb5-ac96-83a754ddf2fa")
+	)
+	(polyline
+		(pts
+			(xy 201.93 92.71) (xy 203.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baaf798e-43ac-419a-afec-715fd28013d0")
+	)
+	(polyline
+		(pts
+			(xy 205.74 29.21) (xy 205.74 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6ace79-20b8-4d32-905a-45d5a52fd7f9")
+	)
+	(polyline
+		(pts
+			(xy 157.48 54.61) (xy 175.26 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc227718-0099-49fb-85cc-436390046212")
+	)
+	(polyline
+		(pts
+			(xy 304.8 157.48) (xy 340.36 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf88aa34-615c-4258-9812-5adf0e15ed28")
+	)
+	(polyline
+		(pts
+			(xy 393.7 124.46) (xy 398.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfeda1a1-f342-4e27-81aa-7666e6d4da0f")
+	)
+	(polyline
+		(pts
+			(xy 153.67 107.95) (xy 153.67 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1332168-519d-425e-8d58-fc4e6f43db8d")
+	)
+	(polyline
+		(pts
+			(xy 304.8 82.55) (xy 340.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d298bfea-12ad-4d0a-b8e0-081bad01648f")
+	)
+	(polyline
+		(pts
+			(xy 381 31.75) (xy 381 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a8bf5b-825d-48f7-90e2-0b7fdf95bbce")
+	)
+	(polyline
+		(pts
+			(xy 304.8 170.18) (xy 340.36 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e87bc4-3fa4-4c0f-827a-322146276939")
+	)
+	(polyline
+		(pts
+			(xy 195.58 119.38) (xy 203.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6059718-8c30-47f3-8282-1f0f47c799b4")
+	)
+	(polyline
+		(pts
+			(xy 339.09 129.54) (xy 340.36 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4c8d8b-2380-4a7e-9bc5-a1de414dc2cd")
+	)
+	(polyline
+		(pts
+			(xy 173.99 40.64) (xy 175.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e637a1af-3e85-4daa-983d-34f891901bec")
+	)
+	(polyline
+		(pts
+			(xy 203.2 29.21) (xy 208.28 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e877002f-f15e-45f2-b00b-89b4fa9ea2cd")
+	)
+	(polyline
+		(pts
+			(xy 339.09 99.06) (xy 340.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeea4db2-5991-4b05-975b-063dcc4f71d4")
+	)
+	(polyline
+		(pts
+			(xy 339.09 113.03) (xy 340.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50222a0-1e08-4721-9fd3-a035bdd6b773")
+	)
+	(polyline
+		(pts
+			(xy 257.81 132.08) (xy 259.08 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7869c80-55d0-42a4-b1a8-c55d0af39f49")
+	)
+	(polyline
+		(pts
+			(xy 157.48 54.61) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7d8e03-b1d6-4507-8f0a-4a965c01e695")
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 24.13 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2facf8b6-9930-4a70-9790-faf792d9f337")
+		(property "Reference" "FID3"
+			(at 26.67 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 26.67 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 24.13 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "DRONE BOARD USING ESP32"
+				(path "/c8876f01-b1b8-4fc6-9cb6-486dfb32cf8a"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "806a1810-29a4-4457-b473-982f35572bb4")
+		(property "Reference" "H2"
+			(at 45.72 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "DRONE BOARD USING ESP32"
+				(path "/c8876f01-b1b8-4fc6-9cb6-486dfb32cf8a"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 66.04 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e69064a-52c6-4084-8706-1fae3c6ffa94")
+		(property "Reference" "H3"
+			(at 68.58 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 68.58 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "DRONE BOARD USING ESP32"
+				(path "/c8876f01-b1b8-4fc6-9cb6-486dfb32cf8a"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 24.13 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b762f4e2-d41c-449a-9768-fcb8b8d60061")
+		(property "Reference" "FID2"
+			(at 26.67 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 26.67 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 24.13 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "DRONE BOARD USING ESP32"
+				(path "/c8876f01-b1b8-4fc6-9cb6-486dfb32cf8a"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3bf967f-9a46-4c13-a90f-ca5bd59c239f")
+		(property "Reference" "H1"
+			(at 45.72 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "DRONE BOARD USING ESP32"
+				(path "/c8876f01-b1b8-4fc6-9cb6-486dfb32cf8a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 24.13 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de9761b3-28c6-43b6-bc0f-af13905292cd")
+		(property "Reference" "FID1"
+			(at 26.67 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 26.67 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 24.13 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "DRONE BOARD USING ESP32"
+				(path "/c8876f01-b1b8-4fc6-9cb6-486dfb32cf8a"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 66.04 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea9496b1-2314-46a3-8c6b-a8c1749f8dee")
+		(property "Reference" "H4"
+			(at 68.58 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 68.58 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 66.04 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "DRONE BOARD USING ESP32"
+				(path "/c8876f01-b1b8-4fc6-9cb6-486dfb32cf8a"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 280.67 198.12)
+		(size 52.07 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "008bacec-620b-4f3e-82f7-c772e00e7363")
+		(property "Sheetname" "Peripherals"
+			(at 280.67 196.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.81 3.81)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 280.67 243.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DRONE BOARD USING ESP32"
+				(path "/c8876f01-b1b8-4fc6-9cb6-486dfb32cf8a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 198.12)
+		(size 57.15 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9b2c4dd2-7c00-4fc7-bc6d-dec05e5c01dc")
+		(property "Sheetname" "ESP32"
+			(at 207.01 196.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.81 3.81)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 207.01 243.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DRONE BOARD USING ESP32"
+				(path "/c8876f01-b1b8-4fc6-9cb6-486dfb32cf8a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 198.12)
+		(size 58.42 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a93aec66-4f5c-4b19-973f-642e8141a28c")
+		(property "Sheetname" "Power Management"
+			(at 125.73 196.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.81 3.81)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Management.kicad_sch"
+			(at 125.73 243.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DRONE BOARD USING ESP32"
+				(path "/c8876f01-b1b8-4fc6-9cb6-486dfb32cf8a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,5 @@
+# KiCad local files
+*.kicad_prl
+
+# KiCad backup files
+*-backups/
